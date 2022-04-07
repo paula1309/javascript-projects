@@ -1,0 +1,256 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background-color: #f1f1f1;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.cabecalho figure img {
+    width: 90px;
+}
+
+.formularioPesquisa {
+    display: flex;
+    height: 40px;
+}
+.formularioPesquisa input {
+    width: 500px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    padding: 0 10px;
+    border-radius: 2px 0 0 2px;
+}
+.formularioPesquisa button {
+    width: 60px;
+    border: 1px solid #cccccc;
+    border-left: none;
+    border-radius: 0 2px 2px 0;
+}
+.formularioPesquisa button img {
+    width: 18px;
+}
+
+.cabecalho .imagemUsuario img {
+    width: 35px;
+    border-radius: 100%;
+}
+
+.destaqueCanal {
+    background-image: url(./img/destaque.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no repeat;
+    height: 300px;
+}
+
+.secaoCanal {
+    background-color: #ffffff;
+}
+
+.detalheCanal{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.detalheCanal figure {
+    margin-right: 20px;
+}
+.detalheCanal figure img {
+    border-radius: 100%;
+    width: 80px;
+}
+
+.detalheCanal_info h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.detalheCanal_info p {
+    font-size: 15px;
+}
+
+.menuNavegacaoCanal ul {
+    display: flex;
+    align-items: center;
+}
+
+.menuNavegacaoCanal ul li a {
+    display: inline-block;
+    color: #606060;
+    text-decoration: none;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.menuNavegacaoCanal ul li button {
+    background-color: transparent;
+    border: none;
+
+}
+.menuNavegacaoCanal ul li button img {
+    width: 18px;
+}
+
+.containerVideosDestaques {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.containerVideosDestaques .coluna--esquerda{
+    width: 600px;
+}
+.containerVideosDestaques .coluna--direita{
+    width: 200px;
+}
+
+.secaoVideosDestaque h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.secaoVideosDestaque_lista li {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.secaoVideosDestaque_lista li figure {
+    margin-right: 20px;
+}
+.secaoVideosDestaque_lista li figure img {
+    width: 250px;
+}
+.secaoVideosDestaque_lista li div h3 {
+    font-size: 18px;
+}
+.secaoVideosDestaque_lista li div span {
+    font-size: 13px;
+}
+.secaoVideosDestaque_lista li div p {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.buttonAdicionarAFila {
+    background-color: #d9d9d9;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 2px 8px;
+    color: #606060;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.secaoAdicionarFila {
+    margin-top: 20px;
+    background-color: #d9d9d9;
+}
+
+.secaoAdicionarFila_cabecalho {
+    background-color:white;
+    padding: 20px;
+}
+.secaoAdicionarFila_cabecalho h2 {
+    font-size: 18px;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+.secaoAdicionarFila_cabecalho p {
+    font-size: 15px;
+}
+
+.secaoAdicionarFila_lista {
+    padding: 10px 10px;
+    height: 300px;
+    overflow-y:scroll;
+}
+.secaoAdicionarFila_lista li {
+    display: flex;
+    margin-bottom: 10px;
+}
+.secaoAdicionarFila_lista li figure {
+    margin-right: 10px;
+}
+.secaoAdicionarFila_lista li figure img {
+    width: 90px;
+}
+.secaoAdicionarFila_lista li div h3 {
+    font-size: 12px;
+}
+.secaoAdicionarFila_lista li div span {
+    display: none;
+}
+.secaoAdicionarFila_lista li div p {
+    display: none;
+}
+
+.secaoAdicionarFila_lista li div button {
+    display: none;
+}
+
+
+.secaoTodosVideos h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+.secaoTodosVideos h2 img {
+    margin-right: 10px;
+}
+
+.secaoTodosVideos_lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secaoTodosVideos_lista li {
+    width: 200px;
+}
+.secaoTodosVideos_lista li figure {}
+.secaoTodosVideos_lista li figure img {
+    width: 100%;
+}
+.secaoTodosVideos_lista li div {}
+.secaoTodosVideos_lista li div h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.secaoTodosVideos_lista li div span {
+    font-size: 13px;
+}
+.secaoTodosVideos_lista li div p {
+    display: none;
+}
+.secaoTodosVideos_lista li div button {
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
