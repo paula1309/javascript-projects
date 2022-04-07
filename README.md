@@ -13,7 +13,7 @@
 
 <img src="img-projetos/contador.png" alt="imagem do projeto contador"/>
 
-## :roquet: Sobre esse projeto
+## :rocket: Sobre esse projeto
 
 <p>
     Esse projeto foi criado no bootcamp da DIO  <strong> MRV FULLSTACK DEVELOPER </strong> na introdução a linguagem Javascript, o layout já peguei pronto para focar apenas na sintaxe Javascript. É um contador que vai de 0 a 100 ao clicar nos botões.
@@ -34,7 +34,7 @@
 
 <img src="img-projetos/controle-gastos.png" alt="imagem do projeto calculadora de gastos"/>
 
-## :roquet: Sobre esse projeto
+## :rocket: Sobre esse projeto
 
 <p>
     Esse projeto foi criado na maratona realizada pela Kenzie Academy com a finalidade de criar um site completo utilizando apenas HTML, CSS e Javascript. O intuito é criar uma aplicação web para fazer o controle de gastos.
@@ -56,7 +56,7 @@
 
 <img src="img-projetos/recriando-youtube.png" alt="imagem do projeto contador"/>
 
-## :roquet: Sobre esse projeto
+## :rocket: Sobre esse projeto
 
 <p>
     Esse projeto foi criado na maratona realizada pela Kenzie Academy com a finalidade de criar um site completo utilizando apenas HTML, CSS e Javascript. O intuito é recriar a interface do Youtube.
@@ -78,7 +78,7 @@
 
 <img src="img-projetos/jogo-naves.png" alt="imagem do projeto contador"/>
 
-## :roquet: Sobre esse projeto
+## :rocket: Sobre esse projeto
 
 <p>
     Esse projeto foi criado no bootcamp da DIO  <strong> MRV FULLSTACK DEVELOPER </strong> em um projeto para praticar os conceitos aprendido de HTML, CSS e Javascript. O intuito é criar um jogo completo onde o helicóptero precisar destruir os outros helicópteros, salvar as pessoas e destruir os caminhões.
