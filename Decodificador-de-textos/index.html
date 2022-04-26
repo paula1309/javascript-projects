@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="assets/reset.css" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Decodificador de Textos</title>
+</head>
+<body>
+    <!--Container Principal com todo o conteúdo (exceto o footer)-->
+    <div class="container">
+        <!--Primeiro Bloco-->
+        <div class="primeiro-bloco">
+            <!--Cabeçalho-->
+            <header>
+                <!--Logo Alura-->
+                <img src="assets/img/logo.png" alt="logo da Alura" />
+
+                <!--Título-->
+                <h1>
+                    Decodificador de Textos
+                </h1>
+
+            </header>
+
+            <!--Conteúdo-->
+            <section>
+                <!--Parte de Cima-->
+                <div class="cima">
+                    <!--Digitar o texto-->
+                    <input id="texto" placeholder="Digite seu texto"/>
+                </div>
+
+                <!--Parte de baixo-->
+                <div class="baixo">
+                    <!--Area explicando as excessões-->
+                    <div class="aviso">
+                        <!--Alerta-->
+                        <img src="assets/img/info.png" alt="ícone de alerta" />
+                        <p>
+                            Apenas letras minúsculas e sem acento.
+                        </p>
+                    </div>
+
+                    <!--Botões Criptografar e Descriptografar-->
+                    <button id="criptografar" onclick="criptografar()">
+                        Criptografar
+                    </button>
+                    <button id="descriptografar" onclick="descriptografar()">
+                        Descriptografar
+                    </button>
+                </div>
+
+            </section>
+        </div>
+
+        <!--Segundo Bloco-->
+        <div class="segundo-bloco">
+            <!--Área para exibir texto-->
+            <div class="exibir-texto">
+                <img src="assets/img/pessoa.svg" alt="pessoa" />
+                <h2>
+                    Nenhuma mensagem encontrada
+                </h2>
+
+                <p>
+                    Digite um texto que você deseja criptografar ou descriptografar.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Rodapé-->
+    <footer>
+        <!--Autor do site-->
+        <p>
+            @2022 Todos os direitos reservados, criado por Paula Albuquerque.
+        </p>
+    </footer>
+
+    <script src="assets/script.js" rel="script"></script>
+</body>
+</html>
